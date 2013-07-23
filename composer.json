@@ -1,0 +1,20 @@
+{
+    "name": "realestateconz/markdownify",
+    "type": "library",
+    "description": "Markdownify is a HTML to Markdown converter written in PHP",
+    "keywords": ["Markdownify", "Markdown", "HTML", "converter"],
+    "homepage": "https://github.com/realestateconz/markdownify",
+    "license": "MIT",
+    "authors": [{
+        "name": "milianw",
+        "homepage": "http://sourceforge.net/projects/markdownify/"
+    }],
+
+    "require": {
+        "php": ">=5.2.4"
+    },
+
+    "autoload": {
+        "classmap": ["parsehtml/", "markdownify_cli.php", "markdownify_extra.php", "markdownify.php"]
+    }
+}
